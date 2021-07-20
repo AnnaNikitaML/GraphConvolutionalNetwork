@@ -15,3 +15,5 @@ Different nuclei of the same element resonate on different frequencies depending
 
 For every molecule we have its structure (coordinates of atoms) and some additional data. This data can be specific to each atom (mulliken charges, magnetic shielding tensor), or molecule as a whole (dipole_moment, potential_energy). Training data also has scalar coupling constant, which we need to predict. Moreover, for training data we have four componets that contribute to this scalar coupling constant. We don't need to predict them, but can use this as an additional information.
 The four componets that contribute to spin-spin coupling are: fermi contact (FC), paramagnetic spin-orbit (PSO), spin-dipole(SD), diamagnetic spin-orbit (DSO) contributions. For both training and test datasets we have pairs of atoms for which we need to determine the coupling constant, along with the coupling type (for example 2JHC, where 2 refers to the distance in molecular bonds between the two atoms, H and C refer to hydrogen and carbon respectively). One of the atoms is always hydrogen
+
+## Brief description of the experiments done in the notebooks
