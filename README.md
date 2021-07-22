@@ -17,3 +17,9 @@ For every molecule we have its structure (coordinates of atoms) and some additio
 The four componets that contribute to spin-spin coupling are: fermi contact (FC), paramagnetic spin-orbit (PSO), spin-dipole(SD), diamagnetic spin-orbit (DSO) contributions. For both training and test datasets we have pairs of atoms for which we need to determine the coupling constant, along with the coupling type (for example 2JHC, where 2 refers to the distance in molecular bonds between the two atoms, H and C refer to hydrogen and carbon respectively). One of the atoms is always hydrogen
 
 ## Brief description of the experiments done in the notebooks
+
+- BondLengthes2507.ipynb
+In this notebook we plot histograms of distance between the atoms. Based on these histograms we try to understand if we have bond between given pair of atoms and what type of the bond it is. Sometimes we see where separation is clear, sometimes it's not so straighforward. To support these observations we used tabular data for the typical bond lengths of different pairs of atoms. We draw 3D version of the molecules hightlighting the bonds found.
+- nn2608-calc_full.ipynb
+- nn2708-eval.ipynb
+- MyNet2.py
