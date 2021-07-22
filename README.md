@@ -29,4 +29,5 @@ We load all the data and import our Neural net. The result of our Neural Network
 - nn2708-eval.ipynb
 
 - MyNet2.py
+
 Reccurent Neural Network, gives results atomwise
