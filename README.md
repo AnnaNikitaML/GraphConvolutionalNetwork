@@ -22,6 +22,10 @@ The four componets that contribute to spin-spin coupling are: fermi contact (FC)
 
 In this notebook we plot histograms of distance between the atoms. Based on these histograms we try to understand if we have bond between given pair of atoms and what type of the bond it is. Sometimes we see where separation is clear, sometimes it's not so straighforward. To support these observations we used tabular data for the typical bond lengths of different pairs of atoms. We draw 3D version of the molecules hightlighting the bonds found.
 
+- GenFeatures0408.ipynb
+
+Based on a set of thresholds form BondLengthes we try to determine multiplicity of the bond. In some cases we see clear separation on the histogram and can determine the bond for sure. That for example occurs for CN triple bond. In other cases, there is no clear separation between two peaks, and we introduce some smooth function, approaching integer multiplicity towards the peaks and farther ends of the peaks, while taking some intermediate value inbetween. We also use angles between bonds to determine the hybridization of atoms. We check on some examples whether hybridization of an atom corresponds its bonds multiplicity, and tried to tweak those interpolating functions to get slightly better fit. We don't normalize the total multiplicity of bonds around the atom to be integer. For example a lot of given molecules are polarized (for example having NH3+ at one end and COO- at another) and due to resonance carboxylate ion's oxygen atoms have 1.5 bond multiplicity.
+
 - nn2608-calc_full.ipynb
 
 We load all the data and import our Neural net. The result of our Neural Network (MyNet2) is atomwise, however, we need to know the information for the bond (pair of atoms). We need to pool the information along the path referring to J-coupling between given two atoms. We use another poolNet to combine this information together
