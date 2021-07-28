@@ -36,6 +36,10 @@ We load all the data and import our Neural net. The result of our Neural Network
 
 Helper functions to run BFS in a graph to search path between given two atoms. This is important when we have 2J or 3J coupling type (i.e. when the atoms aren't bonded directly) as we want to know via which atoms the path goes. Sometimes for 3J coupling we can have diamond-shape structure (so there are two paths of length 3 between the atoms), so we find all shortest paths, not just one.
 
+- GeneratePairwisePathes0408.ipynb
+
+Here we take the graph that represents a molecule and we find a path between two given atoms applying BFS as described above. We search these paths for all pairs of atoms for which the coupling constant is given (train case) or required to be found (test case).
+
 - draw.py
 
 Helper function to plot 3d balls-and-sticks molecule model. It really helps to visualise some interesting cases to better understand some corner cases.
