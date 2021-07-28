@@ -34,4 +34,4 @@ We load all the data and import our Neural net. The result of our Neural Network
 
 - MyNet2.py
 
-Reccurent Neural Network, gives results atomwise
+Graph Convolutional Recurrent Neural Network, takes an Adjacency graph for a molecule and the features for atoms, returns some latent features for atomwise.
