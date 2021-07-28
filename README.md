@@ -32,6 +32,14 @@ We load all the data and import our Neural net. The result of our Neural Network
 
 - nn2708-eval.ipynb
 
+- BFS.py
+
+Helper functions to run BFS in a graph to search path between given two atoms. This is important when we have 2J or 3J coupling type (i.e. when the atoms aren't bonded directly) as we want to know via which atoms the path goes. Sometimes for 3J coupling we can have diamond-shape structure (so there are two paths of length 3 between the atoms), so we find all shortest paths, not just one.
+
+- draw.py
+
+Helper function to plot 3d balls-and-sticks molecule model. It really helps to visualise some interesting cases to better understand some corner cases.
+
 - MyNet2.py
 
 Graph Convolutional Recurrent Neural Network, takes an Adjacency graph for a molecule and the features for atoms, returns some latent features for atomwise.
