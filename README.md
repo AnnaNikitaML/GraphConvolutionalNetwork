@@ -48,7 +48,7 @@ Here we take the graph that represents a molecule and we find a path between two
 
 - find_shortcuts0308.ipynb
 
-This is to draw some molecules for which BFS yields more than one path to better understand what are the typical examples of such structures could be.
+This notebook is to draw some molecules for which BFS yields more than one path to better understand what are the typical examples of such structures could be.
 
 - MyNet2.py
 
