@@ -34,6 +34,10 @@ We load all the data and import our Neural net. The result of our Neural Network
 
 We repeat the same steps as we do during training but we use validation data (10% of original training data). We represent the results after training and validation on the scatter plot for each type of coupling in order to check visually how close is the actual scalar coupling constant to the predicted one and whether the errors are similar for training and validation
 
+- draw.py
+
+Helper function to plot 3d balls-and-sticks molecule model. It really helps to visualise some interesting cases to better understand some corner cases.
+
 - BFS.py
 
 Helper functions to run BFS in a graph to search path between given two atoms. This is important when we have 2J or 3J coupling type (i.e. when the atoms aren't bonded directly) as we want to know via which atoms the path goes. Sometimes for 3J coupling we can have diamond-shape structure (so there are two paths of length 3 between the atoms), so we find all shortest paths, not just one.
@@ -42,9 +46,9 @@ Helper functions to run BFS in a graph to search path between given two atoms. T
 
 Here we take the graph that represents a molecule and we find a path between two given atoms applying BFS as described above. We search these paths for all pairs of atoms for which the coupling constant is given (train case) or required to be found (test case).
 
-- draw.py
+- find_shortcuts0308.ipynb
 
-Helper function to plot 3d balls-and-sticks molecule model. It really helps to visualise some interesting cases to better understand some corner cases.
+This is to draw some molecules for which BFS yields more than one path to better understand what are the typical examples of such structures could be.
 
 - MyNet2.py
 
