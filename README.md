@@ -52,4 +52,4 @@ The goal of this notebook is to draw some molecules for which BFS yields more th
 
 - MyNet2.py
 
-Graph Convolutional Recurrent Neural Network, takes an Adjacency graph for a molecule and the features for atoms, returns some latent features for atomwise.
+This is our implementation of Graph Convolutional Recurrent Neural Network. It takes an Adjacency graph representaion of a molecule and the features for atoms, returns some latent features for atomwise.
