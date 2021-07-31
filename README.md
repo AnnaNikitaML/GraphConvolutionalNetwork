@@ -32,6 +32,8 @@ We load all the data and import our Neural net. The result of our Neural Network
 
 - nn2708-eval.ipynb
 
+We repeat the same steps as we do during training but we use validation data (10% of original training data). We represent the results after training and validation on the scatter plot for each type of coupling in order to check visually how close is the actual scalar coupling constant to the predicted one and whether the errors are similar for training and validation
+
 - BFS.py
 
 Helper functions to run BFS in a graph to search path between given two atoms. This is important when we have 2J or 3J coupling type (i.e. when the atoms aren't bonded directly) as we want to know via which atoms the path goes. Sometimes for 3J coupling we can have diamond-shape structure (so there are two paths of length 3 between the atoms), so we find all shortest paths, not just one.
