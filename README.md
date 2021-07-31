@@ -1,5 +1,5 @@
 # GraphConvolutionalNetwork
-This project is the result of compilation of our efforts on kaggle competition "Predicting Molecular Properties", https://www.kaggle.com/c/champs-scalar-coupling/overview.
+This project is the result of compilation of our efforts on kaggle competition "Predicting Molecular Properties", https://www.kaggle.com/c/champs-scalar-coupling/overview. We uploaded our notebooks as they were at the time we worked on the competition. This is an attempt to store our efforts rather than to create a distributable implementation.
 
 ## Problem setting
 
